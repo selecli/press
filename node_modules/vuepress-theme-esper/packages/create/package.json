@@ -1,0 +1,39 @@
+{
+  "name": "create-vuepress-theme-hope",
+  "version": "1.21.0",
+  "description": "Theme create shortcut for yarn",
+  "keywords": [
+    "create",
+    "vuepress",
+    "vuepress-theme-hope"
+  ],
+  "homepage": "https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/packages/create#readme",
+  "bugs": {
+    "url": "https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-theme-hope/vuepress-theme-hope.git",
+    "directory": "packages/create"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mr.Hope",
+    "email": "zhangbowang1998@gmail.com",
+    "url": "https://mrhope.site"
+  },
+  "bin": {
+    "create-vuepress-theme-hope": "lib/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b tsconfig.json",
+    "clean": "rimraf lib *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@mr-hope/vuepress-shared": "1.21.0",
+    "@types/inquirer": "^8.1.3",
+    "cac": "^6.7.12",
+    "execa": "^5.1.1",
+    "inquirer": "^8.2.0"
+  }
+}
