@@ -2,6 +2,7 @@ module.exports = {
   title: 'Hello VuePress',
   description: 'Just playing around',
   footer: 'MIT Licensed | Copyright © 2018-present Evan You',
+  base: '/press/',
   markdown: {
     lineNumbers: true,
   },
